@@ -28,6 +28,7 @@ function Profile() {
     }
     setForm({ name: user.name, zone: user.zone || '' });
     fetchMyReports();
+    // eslint-disable-next-line
   }, [user]);
  
   const fetchMyReports = async () => {

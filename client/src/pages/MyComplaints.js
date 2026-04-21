@@ -11,12 +11,13 @@ function MyComplaints() {
   const [reports, setReports] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+useEffect(() => {
     if (!user) {
       navigate('/login');
       return;
     }
     fetchMyReports();
+  // eslint-disable-next-line
   }, [user]);
 
   const fetchMyReports = async () => {

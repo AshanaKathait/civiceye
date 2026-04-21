@@ -9,7 +9,7 @@ function Report() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-  const [image, setImage] = useState(null);
+  const [, setImage] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
   const [locationLoading, setLocationLoading] = useState(false);
   const [form, setForm] = useState({
