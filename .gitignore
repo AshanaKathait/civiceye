@@ -1,0 +1,11 @@
+# Backend
+server/node_modules
+server/.env
+
+# Frontend
+client/node_modules
+client/build
+
+# AI service
+ai-service/__pycache__
+ai-service/venv
